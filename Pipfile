@@ -1,18 +1,22 @@
 [[source]]
-
-verify_ssl = true
 url = "https://pypi.python.org/simple"
+verify_ssl = true
 name = "pypi"
 
-
 [packages]
-oauth2client = "*"
+"oauth2client" = "*"
 gspread = "*"
+numpy = "*"
+scipy = "*"
+matplotlib = "*"
+ipython = "*"
+jupyter = "*"
+pandas = "*"
+sympy = "*"
+nose = "*"
+datascience = "*"
 
 [dev-packages]
 
-
-
 [requires]
-
 python_version = "3.6"
