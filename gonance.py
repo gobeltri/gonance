@@ -3,7 +3,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 from config import GonanceConfig
 
 from datascience.util import make_array
-from datascience import Table, CurrencyFormatter, PercentFormatter
+from datascience import Table, CurrencyFormatter, PercentFormatter, are
 
 scope = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 credentials = ServiceAccountCredentials.from_json_keyfile_name(GonanceConfig.OAUTH2_SERVICE_KEY, scope)
